@@ -1,0 +1,47 @@
+.container{
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  .convert-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 42%;
+    width: 26%;
+    border: 8px solid #EABD23;
+    &__input{
+      width: 55%;
+      height: 8%;
+      border-radius: 15px;
+      font-size: x-large;
+      text-align: center;
+    }
+    &__button{
+      height: 10%;
+      width: 56%;
+      border-radius: 15px;
+      margin: 25px;
+      background-color: #eabd23;
+      font-weight: bold;
+      color: #633b09;
+      font-size: 0.8rem;
+    }
+    &__output{
+      color: #633b09;
+      font-size: x-large;
+      font-weight: bold;
+    }
+  }
+  .creditos{
+    color: wheat;
+    position: absolute;
+    right: 15px;
+    bottom: 18px;
+  }
+
+}
